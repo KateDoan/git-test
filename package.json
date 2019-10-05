@@ -4,16 +4,21 @@
   "description": "This is the git test folder",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KateDoan/git-test.git"
   },
   "author": "Kate Doan",
-  "license": "ISC",
+  "license": "ISC", 
   "bugs": {
     "url": "https://github.com/KateDoan/git-test/issues"
   },
-  "homepage": "https://github.com/KateDoan/git-test#readme"
+  "homepage": "https://github.com/KateDoan/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
